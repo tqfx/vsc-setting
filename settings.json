@@ -1,0 +1,186 @@
+{
+    /* editor */
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "editor.accessibilitySupport": "off",
+    /* files */
+    "files.eol": "\n",
+    "files.autoGuessEncoding": true,
+    /* explorer */
+    "explorer.confirmDelete": false,
+    /* workbench */
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    /* window */
+    "window.zoomLevel": 1,
+    /* terminal */
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    /* git */
+    "git.path": "D:/Tools/Git/cmd/git.exe",
+    "git.enableCommitSigning": true,
+    "git.showPushSuccessNotification": true,
+    "git.scanRepositories": [
+        "."
+    ],
+    /* remote */
+    "remote.SSH.remotePlatform": {
+        "192.168.43.1": "linux",
+        "wsl": "linux",
+        "buster": "linux",
+        "tx": "linux"
+    },
+    /* C_CPP */
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.cppStandard": "c++11",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "C_Cpp.default.compilerPath": "gcc",
+    "C_Cpp.clang_format_path": "D:/Tools/msys64/clang64/bin/clang-format.exe",
+    "C_Cpp.clang_format_sortIncludes": true,
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.intelliSenseCachePath": "D:/Tools/VSCode/data/tmp",
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "C_Cpp.experimentalFeatures": "Enabled",
+    "C_Cpp.updateChannel": "Insiders",
+    "C_Cpp.loggingLevel": "Warning",
+    /* python */
+    "python.pythonPath": "D:/Tool/Python39/python.exe",
+    "python.defaultInterpreterPath": "D:/Tool/Python39/python.exe",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--skip-string-normalization"
+    ],
+    /* cortex-debug */
+    "cortex-debug.armToolchainPath": "D:/Tools/gcc-arm-none-eabi/bin",
+    "cortex-debug.armToolchainPrefix": "arm-none-eabi",
+    "cortex-debug.openocdPath": "D:/Tools/OpenOCD/bin/openocd.exe",
+    "cortex-debug.flattenAnonymous": true,
+    /* latex-workshop */
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk",
+        "*.synctex.gz",
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk 🔃",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "latexmk (latexmkrc)",
+            "tools": [
+                "latexmk_rconly"
+            ]
+        },
+        {
+            "name": "latexmk (lualatex)",
+            "tools": [
+                "lualatexmk"
+            ]
+        },
+        {
+            "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "Compile Rnw files",
+            "tools": [
+                "rnw2tex",
+                "latexmk"
+            ]
+        },
+        {
+            "name": "Compile Jnw files",
+            "tools": [
+                "jnw2tex",
+                "latexmk"
+            ]
+        },
+        {
+            "name": "tectonic",
+            "tools": [
+                "tectonic"
+            ]
+        }
+    ],
+    /* extensions */
+    "extensions.ignoreRecommendations": false,
+    /* telemetry */
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "stm32-for-vscode.openOCDPath": "D:\\TOOLS\\OPENOCD\\BIN\\OPENOCD.EXE",
+    "stm32-for-vscode.makePath": "D:\\TOOLS\\MSYS64\\USR\\BIN\\MAKE.EXE",
+    "stm32-for-vscode.armToolchainPath": "D:\\TOOLS\\GCC-ARM-NONE-EABI\\BIN",
+    "git.confirmSync": false,
+    /* end */
+}
