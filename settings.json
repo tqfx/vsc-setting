@@ -20,6 +20,7 @@
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     /* git */
     "git.path": "D:/Tools/Git/cmd/git.exe",
+    "git.confirmSync": false,
     "git.enableCommitSigning": true,
     "git.showPushSuccessNotification": true,
     "git.scanRepositories": [
