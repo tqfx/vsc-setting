@@ -52,10 +52,6 @@
     "python.formatting.blackArgs": [
         "--skip-string-normalization"
     ],
-    /* stm32-for-vscode */
-    "stm32-for-vscode.openOCDPath": "D:\\TOOLS\\OPENOCD\\BIN\\OPENOCD.EXE",
-    "stm32-for-vscode.makePath": "D:\\TOOLS\\MSYS64\\USR\\BIN\\MAKE.EXE",
-    "stm32-for-vscode.armToolchainPath": "D:\\TOOLS\\GCC-ARM-NONE-EABI\\BIN",
     /* cortex-debug */
     "cortex-debug.armToolchainPath": "D:/Tools/gcc-arm-none-eabi/bin",
     "cortex-debug.armToolchainPrefix": "arm-none-eabi",
