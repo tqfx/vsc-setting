@@ -10,12 +10,9 @@
     "explorer.confirmDelete": false,
     /* workbench */
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
     /* window */
     "window.zoomLevel": 1,
     /* terminal */
