@@ -16,8 +16,8 @@
     /* window */
     "window.zoomLevel": 1,
     /* terminal */
-    "terminal.integrated.shell.linux": "/bin/bash",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
     /* git */
     "git.path": "D:/Tools/Git/cmd/git.exe",
     "git.enableCommitSigning": true,
