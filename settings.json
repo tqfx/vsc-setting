@@ -29,8 +29,6 @@
     "git.enableCommitSigning": true,
     "git.showPushSuccessNotification": true,
     "git.path": "D:/Tools/Git/cmd/git.exe",
-    /* gitHistory */
-    "gitHistory.sideBySide": true,
     /* remote */
     "remote.SSH.remotePlatform": {
         "wsl": "linux",
