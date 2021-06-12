@@ -2,12 +2,12 @@
     /* editor */
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
-    "editor.accessibilitySupport": "off",
+    /* diffEditor */
+    "diffEditor.codeLens": true,
+    "diffEditor.ignoreTrimWhitespace": false,
     /* files */
     "files.eol": "\n",
     "files.autoGuessEncoding": true,
-    /* explorer */
-    "explorer.confirmDelete": false,
     /* workbench */
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editorAssociations": {
@@ -18,20 +18,22 @@
     /* terminal */
     "terminal.integrated.defaultProfile.linux": "bash",
     "terminal.integrated.defaultProfile.windows": "PowerShell",
+    /* security */
+    "security.workspace.trust.untrustedFiles": "open",
+    /* update */
+    "update.showReleaseNotes": false,
+    "update.mode": "start",
     /* git */
-    "git.path": "D:/Tools/Git/cmd/git.exe",
-    "git.confirmSync": false,
+    "git.autoStash": true,
+    "git.supportCancellation": true,
     "git.enableCommitSigning": true,
     "git.showPushSuccessNotification": true,
-    "git.scanRepositories": [
-        "."
-    ],
+    "git.path": "D:/Tools/Git/cmd/git.exe",
+    /* gitHistory */
+    "gitHistory.sideBySide": true,
     /* remote */
     "remote.SSH.remotePlatform": {
-        "192.168.43.1": "linux",
         "wsl": "linux",
-        "buster": "linux",
-        "tx": "linux"
     },
     /* C_CPP */
     "C_Cpp.default.cStandard": "c11",
@@ -171,8 +173,6 @@
             ]
         }
     ],
-    /* extensions */
-    "extensions.ignoreRecommendations": false,
     /* telemetry */
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
