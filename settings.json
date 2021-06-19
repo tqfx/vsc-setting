@@ -8,6 +8,7 @@
     /* files */
     "files.eol": "\n",
     "files.autoGuessEncoding": true,
+    "files.trimTrailingWhitespace": true,
     /* workbench */
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editorAssociations": {
