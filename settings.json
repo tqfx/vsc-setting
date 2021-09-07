@@ -12,10 +12,8 @@
     /* workbench */
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
+        "*.ipynb": "jupyter-notebook"
     },
-    /* window */
-    "window.zoomLevel": 1,
     /* terminal */
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.defaultProfile.linux": "bash",
@@ -23,8 +21,8 @@
     /* security */
     "security.workspace.trust.untrustedFiles": "open",
     /* update */
-    "update.showReleaseNotes": false,
     "update.mode": "start",
+    "update.showReleaseNotes": false,
     /* git */
     "git.autoStash": true,
     "git.supportCancellation": true,
@@ -38,14 +36,11 @@
     /* C_CPP */
     "C_Cpp.default.cStandard": "c11",
     "C_Cpp.default.cppStandard": "c++11",
-    "C_Cpp.default.intelliSenseMode": "gcc-x64",
     "C_Cpp.default.compilerPath": "gcc",
-    "C_Cpp.clang_format_path": "D:/Tools/msys64/clang64/bin/clang-format.exe",
-    "C_Cpp.clang_format_sortIncludes": true,
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
     "C_Cpp.autocompleteAddParentheses": true,
-    "C_Cpp.intelliSenseCachePath": "D:/Tools/VSCode/data/tmp",
     "C_Cpp.intelliSenseEngineFallback": "Enabled",
-    "C_Cpp.experimentalFeatures": "Enabled",
+    "C_Cpp.intelliSenseCachePath": "D:/Tools/VSCode/data/tmp",
     "C_Cpp.updateChannel": "Insiders",
     "C_Cpp.loggingLevel": "Warning",
     /* python */
@@ -53,13 +48,13 @@
     "python.defaultInterpreterPath": "D:/Tool/Python39/python.exe",
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": [
-        "--skip-string-normalization"
+        "-S",
     ],
     /* cortex-debug */
-    "cortex-debug.armToolchainPath": "D:/Tools/gcc-arm-none-eabi/bin",
-    "cortex-debug.armToolchainPrefix": "arm-none-eabi",
-    "cortex-debug.openocdPath": "D:/Tools/OpenOCD/bin/openocd.exe",
     "cortex-debug.flattenAnonymous": true,
+    "cortex-debug.armToolchainPrefix": "arm-none-eabi",
+    "cortex-debug.armToolchainPath": "D:/Tools/gcc-arm-none-eabi/bin",
+    "cortex-debug.openocdPath": "D:/Tools/openocd/bin/openocd.exe",
     /* latex-workshop */
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latex.clean.fileTypes": [
