@@ -1,1 +1,1 @@
-# vsc-setting
+# Visual Studio Code Settings
