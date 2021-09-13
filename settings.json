@@ -46,6 +46,7 @@
     /* python */
     "python.pythonPath": "D:/Tool/Python39/python.exe",
     "python.defaultInterpreterPath": "D:/Tool/Python39/python.exe",
+    "python.analysis.typeCheckingMode": "basic",
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": [
         "-S",
