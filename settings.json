@@ -44,8 +44,8 @@
     "C_Cpp.updateChannel": "Insiders",
     "C_Cpp.loggingLevel": "Warning",
     /* python */
-    "python.pythonPath": "D:/Tool/Python39/python.exe",
-    "python.defaultInterpreterPath": "D:/Tool/Python39/python.exe",
+    "python.pythonPath": "D:/Tool/Python38/python.exe",
+    "python.defaultInterpreterPath": "D:/Tool/Python38/python.exe",
     "python.analysis.typeCheckingMode": "basic",
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": [
