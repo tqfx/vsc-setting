@@ -56,6 +56,8 @@
     "cortex-debug.armToolchainPrefix": "arm-none-eabi",
     "cortex-debug.armToolchainPath": "D:/Tools/gcc-arm-none-eabi/bin",
     "cortex-debug.openocdPath": "D:/Tools/openocd/bin/openocd.exe",
+    /* matlab */
+    "matlab.mlintpath": "D:/Program Files/MATLAB/R2021a/bin/win64/mlint.exe",
     /* latex-workshop */
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latex.clean.fileTypes": [
