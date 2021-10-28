@@ -28,7 +28,7 @@
     "git.supportCancellation": true,
     "git.enableCommitSigning": true,
     "git.showPushSuccessNotification": true,
-    "git.path": "D:/Tools/Git/cmd/git.exe",
+    "git.path": "C:/tools/git/cmd/git.exe",
     /* remote */
     "remote.SSH.remotePlatform": {
         "wsl": "linux",
@@ -40,12 +40,12 @@
     "C_Cpp.default.intelliSenseMode": "gcc-x64",
     "C_Cpp.autocompleteAddParentheses": true,
     "C_Cpp.intelliSenseEngineFallback": "Enabled",
-    "C_Cpp.intelliSenseCachePath": "D:/Tools/VSCode/data/tmp",
+    "C_Cpp.intelliSenseCachePath": "C:/tools/vscode/data/tmp",
     "C_Cpp.updateChannel": "Insiders",
     "C_Cpp.loggingLevel": "Warning",
     /* python */
-    "python.pythonPath": "D:/Tool/Python38/python.exe",
-    "python.defaultInterpreterPath": "D:/Tool/Python38/python.exe",
+    "python.pythonPath": "C:/Program Files/Python38/python.exe",
+    "python.defaultInterpreterPath": "C:/Program Files/Python38/python.exe",
     "python.analysis.typeCheckingMode": "basic",
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": [
@@ -54,10 +54,10 @@
     /* cortex-debug */
     "cortex-debug.flattenAnonymous": true,
     "cortex-debug.armToolchainPrefix": "arm-none-eabi",
-    "cortex-debug.armToolchainPath": "D:/Tools/gcc-arm-none-eabi/bin",
-    "cortex-debug.openocdPath": "D:/Tools/openocd/bin/openocd.exe",
+    "cortex-debug.armToolchainPath": "C:/tools/arm-none-eabi/bin",
+    "cortex-debug.openocdPath": "C:/tools/openocd/bin/openocd.exe",
     /* matlab */
-    "matlab.mlintpath": "D:/Program Files/MATLAB/R2021a/bin/win64/mlint.exe",
+    "matlab.mlintpath": "C:/Program Files/MATLAB/R2021a/bin/win64/mlint.exe",
     /* latex-workshop */
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latex.clean.fileTypes": [
@@ -172,7 +172,6 @@
         }
     ],
     /* telemetry */
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
+    "telemetry.telemetryLevel": "off",
     /* end */
 }
