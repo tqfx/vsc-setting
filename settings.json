@@ -8,6 +8,8 @@
     /* files */
     "files.eol": "\n",
     "files.autoGuessEncoding": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     /* workbench */
     "workbench.startupEditor": "newUntitledFile",
