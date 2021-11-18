@@ -21,7 +21,7 @@
     "terminal.integrated.defaultProfile.linux": "bash",
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     /* security */
-    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.enabled": false,
     /* update */
     "update.mode": "start",
     "update.showReleaseNotes": false,
