@@ -3,12 +3,14 @@
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
+    "editor.bracketPairColorization.enabled": true,
     "editor.fontFamily": "Consolas, 'Courier New', monospace",
     /* diffEditor */
-    "diffEditor.codeLens": true,
     "diffEditor.ignoreTrimWhitespace": false,
     /* files */
     "files.autoGuessEncoding": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     /* workbench */
     "workbench.tree.indent": 4,
@@ -23,7 +25,7 @@
     /* terminal */
     "terminal.integrated.cursorStyle": "line",
     /* security */
-    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.enabled": false,
     /* git */
     "git.autoStash": true,
     "git.supportCancellation": true,
@@ -161,7 +163,6 @@
         }
     ],
     /* telemetry */
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
+    "telemetry.telemetryLevel": "off",
     /* end */
 }
