@@ -14,6 +14,7 @@
     "files.trimTrailingWhitespace": true,
     /* workbench */
     "workbench.tree.indent": 4,
+    "workbench.startupEditor": "none",
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
