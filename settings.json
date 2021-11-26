@@ -2,6 +2,7 @@
     /* editor */
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
+    "editor.bracketPairColorization.enabled": true,
     /* diffEditor */
     "diffEditor.codeLens": true,
     "diffEditor.ignoreTrimWhitespace": false,
@@ -12,7 +13,7 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     /* workbench */
-    "workbench.startupEditor": "newUntitledFile",
+    "workbench.startupEditor": "none",
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
@@ -40,10 +41,8 @@
     "C_Cpp.default.cppStandard": "c++11",
     "C_Cpp.default.compilerPath": "gcc",
     "C_Cpp.default.intelliSenseMode": "gcc-x64",
-    "C_Cpp.autocompleteAddParentheses": true,
     "C_Cpp.intelliSenseEngineFallback": "Enabled",
     "C_Cpp.intelliSenseCachePath": "C:/dev/code/data/tmp",
-    "C_Cpp.updateChannel": "Insiders",
     "C_Cpp.loggingLevel": "Warning",
     /* python */
     "python.pythonPath": "C:/Program Files/Python38/python.exe",
