@@ -33,12 +33,9 @@
     "git.enableCommitSigning": true,
     "git.showPushSuccessNotification": true,
     /* C_CPP */
+    "C_Cpp.formatting": "clangFormat",
     "C_Cpp.default.cStandard": "c11",
     "C_Cpp.default.cppStandard": "c++11",
-    "C_Cpp.default.compilerPath": "gcc",
-    "C_Cpp.default.intelliSenseMode": "gcc-x64",
-    "C_Cpp.autocompleteAddParentheses": true,
-    "C_Cpp.intelliSenseEngineFallback": "Enabled",
     /* python */
     "python.analysis.typeCheckingMode": "basic",
     "python.formatting.provider": "black",
