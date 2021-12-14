@@ -24,8 +24,9 @@
     /* security */
     "security.workspace.trust.enabled": false,
     /* update */
-    "update.mode": "start",
+    "update.mode": "manual",
     "update.showReleaseNotes": false,
+    "update.enableWindowsBackgroundUpdates": false,
     /* git */
     "git.autoStash": true,
     "git.supportCancellation": true,
