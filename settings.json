@@ -27,6 +27,8 @@
     "update.mode": "manual",
     "update.showReleaseNotes": false,
     "update.enableWindowsBackgroundUpdates": false,
+    /* telemetry */
+    "telemetry.telemetryLevel": "off",
     /* git */
     "git.autoStash": true,
     "git.supportCancellation": true,
@@ -37,14 +39,18 @@
     "remote.SSH.remotePlatform": {
         "wsl": "linux",
     },
+    /* cmake */
+    "cmake.configureOnOpen": false,
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "VCPKG_TARGET_TRIPLET": "x64-windows"
+    },
     /* C_CPP */
     "C_Cpp.default.cStandard": "c11",
-    "C_Cpp.default.cppStandard": "c++11",
-    "C_Cpp.default.compilerPath": "gcc",
-    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "C_Cpp.intelliSenseEngineFallback": "Enabled",
     "C_Cpp.intelliSenseCachePath": "C:/dev/code/data/tmp",
-    "C_Cpp.loggingLevel": "Warning",
     /* python */
     "python.pythonPath": "C:/Program Files/Python38/python.exe",
     "python.defaultInterpreterPath": "C:/Program Files/Python38/python.exe",
@@ -173,7 +179,5 @@
             ]
         }
     ],
-    /* telemetry */
-    "telemetry.telemetryLevel": "off",
     /* end */
 }
