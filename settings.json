@@ -41,10 +41,6 @@
     },
     /* cmake */
     "cmake.configureOnOpen": false,
-    "cmake.configureSettings": {
-        "CMAKE_TOOLCHAIN_FILE": "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake",
-        "VCPKG_TARGET_TRIPLET": "x64-windows"
-    },
     /* C_CPP */
     "C_Cpp.default.cStandard": "c11",
     "C_Cpp.default.cppStandard": "c++17",
