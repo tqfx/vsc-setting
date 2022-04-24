@@ -14,6 +14,7 @@
     "files.trimTrailingWhitespace": true,
     /* workbench */
     "workbench.startupEditor": "none",
+    "workbench.enableExperiments": false,
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
@@ -45,11 +46,9 @@
     "C_Cpp.default.cStandard": "c11",
     "C_Cpp.default.cppStandard": "c++17",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-    "C_Cpp.intelliSenseEngineFallback": "Enabled",
-    "C_Cpp.intelliSenseCachePath": "C:/dev/code/data/tmp",
     /* python */
-    "python.pythonPath": "C:/Program Files/Python38/python.exe",
-    "python.defaultInterpreterPath": "C:/Program Files/Python38/python.exe",
+    "python.pythonPath": "C:/Program Files/Python39/python.exe",
+    "python.defaultInterpreterPath": "C:/Program Files/Python39/python.exe",
     "python.analysis.typeCheckingMode": "basic",
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": [
@@ -61,7 +60,7 @@
     "cortex-debug.armToolchainPath": "C:/dev/arm-none-eabi/bin",
     "cortex-debug.openocdPath": "C:/dev/openocd/bin/openocd.exe",
     /* matlab */
-    "matlab.mlintpath": "C:/Program Files/MATLAB/R2021a/bin/win64/mlint.exe",
+    "matlab.mlintpath": "C:/Program Files/MATLAB/R2021b/bin/win64/mlint.exe",
     /* latex-workshop */
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latex.clean.fileTypes": [
