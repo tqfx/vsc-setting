@@ -45,9 +45,21 @@
     /* C_CPP */
     "C_Cpp.default.cStandard": "c11",
     "C_Cpp.default.cppStandard": "c++17",
-    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "[c]": {
+        "editor.quickSuggestions": true
+    },
+    "[cpp]": {
+        "editor.quickSuggestions": true
+    },
+    /* doxdocgen */
+    "doxdocgen.c.commentPrefix": " ",
+    "doxdocgen.c.firstLine": "/*!",
+    "doxdocgen.c.lastLine": "*/",
+    "doxdocgen.c.triggerSequence": "//",
+    "doxdocgen.generic.useGitUserName": true,
+    "doxdocgen.generic.useGitUserEmail": true,
+    "doxdocgen.generic.commandSuggestion": true,
     /* python */
-    "python.pythonPath": "C:/Program Files/Python39/python.exe",
     "python.defaultInterpreterPath": "C:/Program Files/Python39/python.exe",
     "python.analysis.typeCheckingMode": "basic",
     "python.formatting.provider": "black",
