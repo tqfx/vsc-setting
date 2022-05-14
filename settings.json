@@ -43,14 +43,10 @@
     /* cmake */
     "cmake.configureOnOpen": false,
     /* C_CPP */
+    "C_Cpp.autocomplete": "Disabled",
     "C_Cpp.default.cStandard": "c11",
     "C_Cpp.default.cppStandard": "c++17",
-    "[c]": {
-        "editor.quickSuggestions": true
-    },
-    "[cpp]": {
-        "editor.quickSuggestions": true
-    },
+    "C_Cpp.intelliSenseEngine": "Disabled",
     /* doxdocgen */
     "doxdocgen.c.commentPrefix": " ",
     "doxdocgen.c.firstLine": "/*!",
