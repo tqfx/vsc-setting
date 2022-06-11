@@ -43,10 +43,11 @@
     /* cmake */
     "cmake.configureOnOpen": false,
     /* C_CPP */
-    "C_Cpp.autocomplete": "Disabled",
-    "C_Cpp.default.cStandard": "c11",
-    "C_Cpp.default.cppStandard": "c++17",
     "C_Cpp.intelliSenseEngine": "Disabled",
+    /* clangd */
+    "clangd.fallbackFlags": [
+        "-IC:/dev/vcpkg/installed/x64-windows/include",
+    ],
     /* doxdocgen */
     "doxdocgen.c.commentPrefix": " ",
     "doxdocgen.c.firstLine": "/*!",
