@@ -1,1 +1,1 @@
-# Visual Studio Code Settings
+# Visual Studio Code User Settings
