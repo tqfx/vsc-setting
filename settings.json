@@ -31,20 +31,31 @@
     "update.mode": "manual",
     "update.showReleaseNotes": false,
     "update.enableWindowsBackgroundUpdates": false,
+    /* telemetry */
+    "telemetry.telemetryLevel": "off",
     /* git */
     "git.autoStash": true,
     "git.supportCancellation": true,
     "git.enableCommitSigning": true,
     "git.showPushSuccessNotification": true,
+    /* cmake */
+    "cmake.configureOnOpen": false,
     /* C_CPP */
-    "C_Cpp.formatting": "clangFormat",
-    "C_Cpp.default.cStandard": "c11",
-    "C_Cpp.default.cppStandard": "c++11",
+    "C_Cpp.intelliSenseEngine": "Disabled",
+    /* clangd */
+    /* doxdocgen */
+    "doxdocgen.c.commentPrefix": " ",
+    "doxdocgen.c.firstLine": "/*!",
+    "doxdocgen.c.lastLine": "*/",
+    "doxdocgen.c.triggerSequence": "//",
+    "doxdocgen.generic.useGitUserName": true,
+    "doxdocgen.generic.useGitUserEmail": true,
+    "doxdocgen.generic.commandSuggestion": true,
     /* python */
     "python.analysis.typeCheckingMode": "basic",
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": [
-        "-S"
+        "-S",
     ],
     /* cortex-debug */
     "cortex-debug.flattenAnonymous": true,
@@ -164,7 +175,5 @@
             ]
         }
     ],
-    /* telemetry */
-    "telemetry.telemetryLevel": "off",
     /* end */
 }
