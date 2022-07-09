@@ -49,9 +49,9 @@
         "-IC:/dev/vcpkg/installed/x64-windows/include",
     ],
     /* doxdocgen */
-    "doxdocgen.c.commentPrefix": " ",
-    "doxdocgen.c.firstLine": "/*!",
     "doxdocgen.c.lastLine": "*/",
+    "doxdocgen.c.firstLine": "/*!",
+    "doxdocgen.c.commentPrefix": " ",
     "doxdocgen.c.triggerSequence": "//",
     "doxdocgen.generic.useGitUserName": true,
     "doxdocgen.generic.useGitUserEmail": true,
