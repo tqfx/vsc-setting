@@ -30,6 +30,8 @@
     "update.enableWindowsBackgroundUpdates": false,
     /* telemetry */
     "telemetry.telemetryLevel": "off",
+    /* extensions */
+    "extensions.autoUpdate": false,
     /* git */
     "git.autoStash": true,
     "git.supportCancellation": true,
@@ -45,8 +47,15 @@
     /* C_CPP */
     "C_Cpp.intelliSenseEngine": "Disabled",
     /* clangd */
+    "clangd.arguments": [
+        "--completion-style=detailed",
+        "--header-insertion=never",
+        "--clang-tidy",
+    ],
     "clangd.fallbackFlags": [
-        "-IC:/dev/vcpkg/installed/x64-windows/include",
+        "-I${env:VCPKG_INSTALLATION_ROOT}/installed/x64-windows/include",
+        "-I${env:VCPKG_INSTALLATION_ROOT}/installed/x64-linux/include",
+        "-I${cwd}/include",
     ],
     /* doxdocgen */
     "doxdocgen.c.lastLine": "*/",
