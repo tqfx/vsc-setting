@@ -1,11 +1,11 @@
 {
     /* editor */
-    "editor.fontLigatures": true,
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
     "editor.bracketPairColorization.enabled": true,
     "editor.fontFamily": "Consolas, 'Courier New', monospace",
     /* diffEditor */
+    "diffEditor.codeLens": true,
     "diffEditor.ignoreTrimWhitespace": false,
     /* files */
     "files.autoGuessEncoding": true,
@@ -15,6 +15,7 @@
     /* workbench */
     "workbench.tree.indent": 4,
     "workbench.startupEditor": "none",
+    "workbench.enableExperiments": false,
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
@@ -33,6 +34,8 @@
     "update.enableWindowsBackgroundUpdates": false,
     /* telemetry */
     "telemetry.telemetryLevel": "off",
+    /* extensions */
+    "extensions.autoUpdate": false,
     /* git */
     "git.autoStash": true,
     "git.supportCancellation": true,
@@ -43,10 +46,19 @@
     /* C_CPP */
     "C_Cpp.intelliSenseEngine": "Disabled",
     /* clangd */
+    "clangd.arguments": [
+        "--completion-style=detailed",
+        "--header-insertion=never",
+        "--clang-tidy",
+    ],
+    "clangd.fallbackFlags": [
+        "-I${env:VCPKG_INSTALLATION_ROOT}/installed/x64-linux/include",
+        "-I${cwd}/include",
+    ],
     /* doxdocgen */
-    "doxdocgen.c.commentPrefix": " ",
-    "doxdocgen.c.firstLine": "/*!",
     "doxdocgen.c.lastLine": "*/",
+    "doxdocgen.c.firstLine": "/*!",
+    "doxdocgen.c.commentPrefix": " ",
     "doxdocgen.c.triggerSequence": "//",
     "doxdocgen.generic.useGitUserName": true,
     "doxdocgen.generic.useGitUserEmail": true,
