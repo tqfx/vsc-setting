@@ -42,6 +42,8 @@
     "remote.SSH.remotePlatform": {
         "wsl": "linux",
     },
+    /* mesonbuild */
+    "mesonbuild.configureOnOpen": false,
     /* cmake */
     "cmake.configureOnOpen": false,
     /* C_CPP */
