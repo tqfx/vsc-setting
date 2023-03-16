@@ -19,7 +19,6 @@
         "*.ipynb": "jupyter-notebook"
     },
     /* terminal */
-    "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.defaultProfile.linux": "bash",
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     /* security */
