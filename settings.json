@@ -46,6 +46,7 @@
     "mesonbuild.configureOnOpen": false,
     /* cmake */
     "cmake.configureOnOpen": false,
+    "cmake.format.allowOptionalArgumentIndentation": true,
     /* C_CPP */
     "C_Cpp.intelliSenseEngine": "disabled",
     /* dotnet */
