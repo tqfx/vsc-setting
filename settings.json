@@ -45,7 +45,12 @@
     /* cmake */
     "cmake.configureOnOpen": false,
     /* C_CPP */
-    "C_Cpp.intelliSenseEngine": "Disabled",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    /* dotnet */
+    "dotnetAcquisitionExtension.enableTelemetry": false,
+    "dotnetAcquisitionExtension.existingDotnetPath": [
+        "C:/Program Files/dotnet"
+    ],
     /* clangd */
     "clangd.arguments": [
         "--completion-style=detailed",
