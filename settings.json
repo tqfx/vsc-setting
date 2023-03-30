@@ -3,7 +3,7 @@
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
     "editor.bracketPairColorization.enabled": true,
-    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', monospace",
     /* diffEditor */
     "diffEditor.codeLens": true,
     "diffEditor.ignoreTrimWhitespace": false,
