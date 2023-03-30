@@ -24,8 +24,6 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
-    /* terminal */
-    "terminal.integrated.cursorStyle": "line",
     /* security */
     "security.workspace.trust.enabled": false,
     /* update */
