@@ -5,6 +5,8 @@
     "editor.bracketPairColorization.enabled": true,
     "editor.inlayHints.enabled": "offUnlessPressed",
     "editor.fontFamily": "'JetBrains Mono', monospace",
+    /* explorer */
+    "explorer.sortOrderLexicographicOptions": "unicode",
     /* diffEditor */
     "diffEditor.codeLens": true,
     "diffEditor.ignoreTrimWhitespace": false,
@@ -17,7 +19,7 @@
     "workbench.startupEditor": "none",
     "workbench.enableExperiments": false,
     "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook"
+        "*.ipynb": "jupyter-notebook",
     },
     /* terminal */
     "terminal.integrated.defaultProfile.linux": "bash",
@@ -52,7 +54,7 @@
     /* dotnet */
     "dotnetAcquisitionExtension.enableTelemetry": false,
     "dotnetAcquisitionExtension.existingDotnetPath": [
-        "C:/Program Files/dotnet"
+        "C:/Program Files/dotnet",
     ],
     /* clangd */
     "clangd.arguments": [
@@ -76,8 +78,10 @@
     /* python */
     "python.defaultInterpreterPath": "C:/Program Files/Python39/python.exe",
     "python.analysis.typeCheckingMode": "basic",
-    "python.formatting.provider": "black",
-    "python.formatting.blackArgs": [
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    },
+    "black-formatter.args": [
         "-S",
     ],
     /* cortex-debug */
@@ -120,8 +124,8 @@
                 "-interaction=nonstopmode",
                 "-file-line-error",
                 "-pdf",
-                "%DOC%"
-            ]
+                "%DOC%",
+            ],
         },
         {
             "name": "xelatex",
@@ -130,8 +134,8 @@
                 "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
-                "%DOC%"
-            ]
+                "%DOC%",
+            ],
         },
         {
             "name": "pdflatex",
@@ -140,35 +144,35 @@
                 "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
-                "%DOC%"
-            ]
+                "%DOC%",
+            ],
         },
         {
             "name": "bibtex",
             "command": "bibtex",
             "args": [
-                "%DOCFILE%"
-            ]
+                "%DOCFILE%",
+            ],
         }
     ],
     "latex-workshop.latex.recipes": [
         {
             "name": "latexmk 🔃",
             "tools": [
-                "latexmk"
-            ]
+                "latexmk",
+            ],
         },
         {
             "name": "latexmk (latexmkrc)",
             "tools": [
-                "latexmk_rconly"
-            ]
+                "latexmk_rconly",
+            ],
         },
         {
             "name": "latexmk (lualatex)",
             "tools": [
-                "lualatexmk"
-            ]
+                "lualatexmk",
+            ],
         },
         {
             "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
@@ -176,29 +180,29 @@
                 "pdflatex",
                 "bibtex",
                 "pdflatex",
-                "pdflatex"
-            ]
+                "pdflatex",
+            ],
         },
         {
             "name": "Compile Rnw files",
             "tools": [
                 "rnw2tex",
-                "latexmk"
-            ]
+                "latexmk",
+            ],
         },
         {
             "name": "Compile Jnw files",
             "tools": [
                 "jnw2tex",
-                "latexmk"
-            ]
+                "latexmk",
+            ],
         },
         {
             "name": "tectonic",
             "tools": [
-                "tectonic"
-            ]
-        }
+                "tectonic",
+            ],
+        },
     ],
     /* end */
 }
