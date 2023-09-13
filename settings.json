@@ -5,6 +5,8 @@
     "editor.bracketPairColorization.enabled": true,
     "editor.inlayHints.enabled": "offUnlessPressed",
     "editor.fontFamily": "'JetBrains Mono', monospace",
+    /* explorer */
+    "explorer.sortOrderLexicographicOptions": "unicode",
     /* diffEditor */
     "diffEditor.codeLens": true,
     "diffEditor.ignoreTrimWhitespace": false,
@@ -17,7 +19,7 @@
     "workbench.startupEditor": "none",
     "workbench.enableExperiments": false,
     "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook"
+        "*.ipynb": "jupyter-notebook",
     },
     /* notebook */
     "notebook.cellToolbarLocation": {
@@ -39,6 +41,8 @@
     "git.supportCancellation": true,
     "git.enableCommitSigning": true,
     "git.showPushSuccessNotification": true,
+    /* mesonbuild */
+    "mesonbuild.configureOnOpen": false,
     /* cmake */
     "cmake.configureOnOpen": false,
     /* C_CPP */
@@ -105,8 +109,8 @@
                 "-interaction=nonstopmode",
                 "-file-line-error",
                 "-pdf",
-                "%DOC%"
-            ]
+                "%DOC%",
+            ],
         },
         {
             "name": "xelatex",
@@ -115,8 +119,8 @@
                 "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
-                "%DOC%"
-            ]
+                "%DOC%",
+            ],
         },
         {
             "name": "pdflatex",
@@ -125,35 +129,35 @@
                 "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
-                "%DOC%"
-            ]
+                "%DOC%",
+            ],
         },
         {
             "name": "bibtex",
             "command": "bibtex",
             "args": [
-                "%DOCFILE%"
-            ]
-        }
+                "%DOCFILE%",
+            ],
+        },
     ],
     "latex-workshop.latex.recipes": [
         {
             "name": "latexmk 🔃",
             "tools": [
-                "latexmk"
-            ]
+                "latexmk",
+            ],
         },
         {
             "name": "latexmk (latexmkrc)",
             "tools": [
-                "latexmk_rconly"
-            ]
+                "latexmk_rconly",
+            ],
         },
         {
             "name": "latexmk (lualatex)",
             "tools": [
-                "lualatexmk"
-            ]
+                "lualatexmk",
+            ],
         },
         {
             "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
@@ -161,29 +165,29 @@
                 "pdflatex",
                 "bibtex",
                 "pdflatex",
-                "pdflatex"
-            ]
+                "pdflatex",
+            ],
         },
         {
             "name": "Compile Rnw files",
             "tools": [
                 "rnw2tex",
-                "latexmk"
-            ]
+                "latexmk",
+            ],
         },
         {
             "name": "Compile Jnw files",
             "tools": [
                 "jnw2tex",
-                "latexmk"
-            ]
+                "latexmk",
+            ],
         },
         {
             "name": "tectonic",
             "tools": [
-                "tectonic"
-            ]
-        }
+                "tectonic",
+            ],
+        },
     ],
     /* end */
 }
