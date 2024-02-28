@@ -44,6 +44,10 @@
     "remote.SSH.remotePlatform": {
         "wsl": "linux",
     },
+    /* javascript */
+    "javascript.format.semicolons": "insert",
+    /* javascript */
+    "typescript.format.semicolons": "insert",
     /* mesonbuild */
     "mesonbuild.configureOnOpen": false,
     /* cmake */
