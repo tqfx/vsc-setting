@@ -76,7 +76,6 @@
     "doxdocgen.generic.useGitUserEmail": true,
     "doxdocgen.generic.commandSuggestion": true,
     /* python */
-    "python.defaultInterpreterPath": "C:/Program Files/Python39/python.exe",
     "python.analysis.typeCheckingMode": "basic",
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
